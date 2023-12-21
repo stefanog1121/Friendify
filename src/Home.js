@@ -12,7 +12,7 @@ function Main() {
             <div className="mainContainer">
                 <div className="contentTracksContainer">
                     <div className="userContentContainer">
-                        <img 
+                        <img
                             className="userProfileImg"
                             src="https://static.planetminecraft.com/files/banners/minecraft_banner_16v6E6o1k1m.png"
                             alt="User Profile"
