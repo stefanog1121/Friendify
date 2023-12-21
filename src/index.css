@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #d1d2ce;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.userProfileImg {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+}
+
+.topTracksContaienr {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+
+.contentTracksContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.userContentContainer, .topTracksContainer, .topArtistsContainer, .recentlyPlayedContainer {
+  flex: 1 0 50%;
+  border-radius: 25px;
 }
