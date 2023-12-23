@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeProvider } from '@mui/material/styles';
-import mainTheme from './themes'; 
+import theme from './themes'; 
 import NavBar from "./NavBar";
 import Home from "./Home";
 import Compare from "./Compare";
@@ -10,7 +10,7 @@ import "./index.css";
 
 function App() {
   return (
-    <ThemeProvider theme={mainTheme}>
+    <ThemeProvider theme={theme}>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
